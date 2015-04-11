@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html ng-app="ATSQueryPad">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATS Query Pad - @ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+    @RenderBody()
+
+    <!--Custom Script Starts-->
+    <script type="text/javascript">
+        var ATSQueryPad = {}; // Namespace (Its reccommended to nest every local variable or function under this)
+    </script>
+    <script src="~/Scripts/CryptoJs/hmac-sha256.js"></script>
+    <script src="~/Scripts/CryptoJs/enc-base64-min.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @*@Html.Partial("_CommonLayoutScript")*@
+    <script src="~/Scripts/Application/Build/start.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

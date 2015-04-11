@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATSQueryPad", "ATSQueryPad\ATSQueryPad.csproj", "{EEDCD5D4-D572-4ED2-896A-34379DC7ABAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATSQueryPad.Tests", "ATSQueryPad.Tests\ATSQueryPad.Tests.csproj", "{D416555C-D7B2-4BAF-8CE7-22461D0CCDFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEDCD5D4-D572-4ED2-896A-34379DC7ABAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDCD5D4-D572-4ED2-896A-34379DC7ABAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDCD5D4-D572-4ED2-896A-34379DC7ABAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDCD5D4-D572-4ED2-896A-34379DC7ABAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D416555C-D7B2-4BAF-8CE7-22461D0CCDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D416555C-D7B2-4BAF-8CE7-22461D0CCDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D416555C-D7B2-4BAF-8CE7-22461D0CCDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D416555C-D7B2-4BAF-8CE7-22461D0CCDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
